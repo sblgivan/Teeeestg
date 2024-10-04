@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deriv Bot</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Deriv API CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@deriv/deriv-api/dist/deriv-api.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Deriv Trading Bot</h1>
+    </header>
+    
+    <main>
+        <div class="info-box">
+            <p id="balance">Your current balance: Loading...</p>
+            <p id="payout">Current payout: Loading...</p>
+            <p id="bid_price">Current bid price: Loading...</p>
+            <p id="profit">Profit Status: Waiting...</p>
+        </div>
+
+        <button id="startBtn">Start Bot</button>
+    </main>
+
+    <footer>
+        <p>Powered by Deriv API</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
